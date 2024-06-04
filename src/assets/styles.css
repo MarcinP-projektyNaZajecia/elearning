@@ -1,94 +1,114 @@
 /* Reset CSS */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  #app {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  /* Navbar styles */
-  .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-  }
-  
-  .navbar a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .nav-link {
-    margin-right: 20px;
-  }
-  
-  /* Footer styles */
-  .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  /* Main content styles */
-  main {
-    padding: 1em;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: #444;
-  }
-  
-  p {
-    line-height: 1.6;
-  }
-  
-  /* Quiz styles */
-  .quiz {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-    padding: 2em;
-    margin-bottom: 2em;
-  }
-  
-  /* Button styles */
-  button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 0.5em 1em;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Content item styles */
-.home {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.scrum {
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4ab;
+  color: #333;
+  height: 100%;
+}
+
+#app {
+  max-width: 1200px;
+  background-color: #a09c9742;
+  margin: 0 auto;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.scrum-menu {
+  margin-top: 20px;
+}
+
+.nav-link {
+  color: #0e0d0d;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.active-link {
+  font-weight: bold;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  max-width: 1200px; /* Zmienione na 1200px, tak jak w #app */
+  margin-left: auto; /* Wyśrodkowanie stopki */
+  margin-right: auto; /* Wyśrodkowanie stopki */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Main content styles */
+main {
+  padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Quiz styles */
+.quiz {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+/* Button styles */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Content item styles */
+.home, .scrum {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: calc(100vh - 60px);
+  overflow: auto;
+  margin-bottom: 80px;
 }
 
 .content-item {
@@ -98,6 +118,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .section-item {
   width: 80%;
   margin-top: 50px;
@@ -105,6 +126,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .section-item p {
-  margin-top: 20px; /* Adds space above the content */
+  margin-top: 20px;
 }

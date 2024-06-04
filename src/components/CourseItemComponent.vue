@@ -1,5 +1,5 @@
 <template>
-  <div class="course-item">
+  <div class="course-item" :id="item.title.replace(/ /g, '-')">
     <h2>{{ item.title }}</h2>
     <div v-for="(section, index) in item.sections" :key="index" class="section-item">
       <h3>{{ section.subtitle }}</h3>
