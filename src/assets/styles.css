@@ -27,6 +27,10 @@
     color: #fff;
     text-decoration: none;
   }
+
+  .nav-link {
+    margin-right: 20px;
+  }
   
   /* Footer styles */
   .footer {
@@ -74,3 +78,33 @@
     background-color: #0056b3;
   }
   
+  /* Content item styles */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scrum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-item {
+  width: 90%; 
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-item {
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-item p {
+  margin-top: 20px; /* Adds space above the content */
+}

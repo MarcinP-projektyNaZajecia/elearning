@@ -6,10 +6,10 @@
   
   <script>
   import axios from 'axios'
-  import Quiz from '../components/Quiz.vue'
+  import Quiz from '../components/QuizComponent.vue'
   
   export default {
-    name: 'Quiz',
+    name: 'QuizView',
     components: {
       Quiz
     },

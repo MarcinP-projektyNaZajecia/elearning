@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'Quiz',
+  name: 'QuizComponent',
   data() {
     return {
       quizData: [], // tutaj dodaj swoje dane dla Quiz

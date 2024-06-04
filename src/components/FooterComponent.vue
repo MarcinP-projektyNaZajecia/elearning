@@ -1,12 +1,12 @@
 <template>
   <footer class="footer">
-    <p>© 2024 Twój Portal E-Learningowy</p>
+    <p>© 2024 Portal E-Learningowy: Podstawy Scruma</p>
   </footer>
 </template>
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'FooterComponent'
 }
 </script>
 

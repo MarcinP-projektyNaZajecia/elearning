@@ -1,0 +1,16 @@
+{
+"items": [
+        {
+        "title": "Wprowadzenie do Scruma",
+        "content": "Scrum to ramowy model zarządzania projektami, który promuje zwinność i iteracyjne podejście do realizacji projektów. Zwinność oznacza zdolność do szybkiego i efektywnego reagowania na zmiany, a podejście iteracyjne polega na podziale projektu na mniejsze części, które są realizowane w krótkich cyklach zwanych sprintami."
+        },
+        {
+        "title": "Cel portalu",
+        "content": "Naszym celem jest dostarczenie Ci solidnej podstawy wiedzy na temat Scruma, niezależnie od tego, czy jesteś nowicjuszem, czy doświadczonym praktykiem."
+        },
+        {
+        "title": "Jak korzystać z portalu",
+        "content": "Aby korzystać z portalu, po prostu wybierz interesujący Cię temat z menu i zacznij naukę! Każda podstrona zawiera szczegółowe informacje na dany temat, a na końcu znajdziesz quizy, które pomogą Ci sprawdzić swoją wiedzę."
+        }
+    ]
+}

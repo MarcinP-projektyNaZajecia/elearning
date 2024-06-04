@@ -1,0 +1,120 @@
+{
+  "items": [
+    {
+      "title": "Podstawy Scruma",
+      "sections": [
+        {
+          "subtitle": "Definicja Scruma",
+          "content": "Scrum to ramowy model zarządzania projektami, który promuje zwinność i iteracyjne podejście do realizacji projektów. W przeciwieństwie do tradycyjnych modeli zarządzania projektami, takich jak model kaskadowy, Scrum nie zakłada pełnego zrozumienia wymagań i problemów na początku projektu. Zamiast tego, Scrum akceptuje, że projekt będzie ewoluował i zmieniać się w miarę jego trwania. Jedna iteracja pracy nad projektem - zwana sprintem - trwa do 4 tygodni (zwykle jednak tydzień lub dwa)."
+        },
+        {
+          "subtitle": "Historia Scruma",
+          "content": "Scrum został stworzony w latach 80. XX wieku przez Jeffa Sutherlanda i Kena Schwabera. Początkowo był stosowany w projektach związanych z produkcją oprogramowania, ale z czasem zaczął być stosowany w różnych dziedzinach, takich jak marketing, operacje czy produkty fizyczne."
+        },
+        {
+          "subtitle": "Filozofia Scruma",
+          "content": "Filozofia Scruma opiera się na Manifeście Agile, który głosi, że indywidualności i interakcje są ważniejsze niż procesy i narzędzia, działający produkt jest ważniejszy niż obszerna dokumentacja, współpraca z klientem jest ważniejsza niż negocjacje umów, a reagowanie na zmiany jest ważniejsze niż przestrzeganie planu."
+        },
+        {
+          "subtitle": "Podstawowe zasady Scruma",
+          "content": "W Scrumie, zasady są proste: Inspekcja, Adaptacja i Transparentność. Inspekcja oznacza regularne sprawdzanie postępu i jakości pracy, Adaptacja oznacza dostosowywanie planów i procesów w odpowiedzi na zmiany i nowo odkryte problemy, a Transparentność oznacza otwartość i jasność w komunikacji, procesach i decyzjach."
+        },
+        {
+          "subtitle": "Wartości Scruma",
+          "content": "Przyświecajace Scrumowi wartości to: Otwartość, Szacunek, Zaangażowanie, Odwaga i Skupienie. Są one kluczowe dla zrozumienia i skutecznego stosowania Scruma. Otwartość oznacza transparentność procesów i decyzji, szacunek odnosi się do szacunku dla indywidualnych umiejętności i wkładu każdego członka zespołu, zaangażowanie oznacza pełne zaangażowanie w realizację celów sprintu i projektu, odwaga oznacza odwagę w podejmowaniu trudnych decyzji i skupienie oznacza skupienie na pracy i celach sprintu."
+        }
+      ]
+    },
+    
+    {
+      "title": "Role w Scrumie",
+      "sections": [
+        {
+          "subtitle": "Product Owner",
+          "content": "Product Owner jest odpowiedzialny za maksymalizację wartości produktu. Definiuje wymagania produktu i priorytety zadań. Product Owner jest kluczową rolą w Scrumie, ponieważ to on decyduje, co zespół powinien zrobić. Jest to osoba, która ma wizję produktu i jest w stanie przekazać tę wizję zespołowi. Product Owner jest również odpowiedzialny za zarządzanie Product Backlogiem, co obejmuje definiowanie, priorytetyzację i dostosowywanie elementów Backlogu."
+        },
+        {
+          "subtitle": "Scrum Master",
+          "content": "Scrum Master pomaga zespołowi w zrozumieniu i stosowaniu Scruma. Usuwa przeszkody, które mogą utrudniać postęp zespołu. Scrum Master jest jak trener dla zespołu, pomaga mu pracować jako jednolita, samozarządzająca się jednostka. Scrum Master jest również odpowiedzialny za zapewnienie, że zespół przestrzega zasad i praktyk Scruma."
+        },
+        {
+          "subtitle": "Zespół deweloperski",
+          "content": "Zespół deweloperski tworzy produkt. Składa się z profesjonalistów, którzy samodzielnie organizują swoją pracę, aby dostarczyć wysokiej jakości Increment. Zespół deweloperski w Scrumie jest samozarządzający się i wielofunkcyjny, co oznacza, że członkowie zespołu mają wszystkie umiejętności niezbędne do wykonania pracy."
+        }
+      ]
+    }
+    ,
+    {
+      "title": "Artefakty",
+      "sections": [
+        {
+          "subtitle": "Product Backlog",
+          "content": "Product Backlog to lista zadań do wykonania. Product Owner jest odpowiedzialny za jej utrzymanie i priorytetyzację. Product Backlog jest dynamiczny i może zmieniać się w miarę ewolucji projektu. Elementy Backlogu są zwykle formułowane jako User Stories, które opisują funkcjonalność z perspektywy użytkownika."
+        },
+        {
+          "subtitle": "Sprint Backlog",
+          "content": "Sprint Backlogiem nazywamy listę zadań wybranych do realizacji w danym sprincie. Zespół deweloperski jest odpowiedzialny za jej utrzymanie. Sprint Backlog jest tworzony podczas ceremonii planowania sprintu i zawiera wszystkie zadania, które zespół zobowiązał się zrealizować w danym sprincie."
+        },
+        {
+          "subtitle": "Increment",
+          "content": "Sumaęwszystkich elementów Product Backlogu zakończonych podczas jedneggo sprintu nazywamy Incrementem. Increment reprezentuje “Gotowy” stan pracy na koniec Sprintu. “Gotowy” oznacza, że praca spełnia kryteria Definition of Done."
+        }
+      ]
+    }
+    ,
+    {
+      "title": "Ceremonie",
+      "sections": [
+        {
+          "subtitle": "Planowanie sprintu",
+          "content": "Planowanie sprintu to \"ceremonia\" (czyli cykliczne wydarzenie w cyklu scruma), podczas której zespół decyduje, co zostanie zrealizowane w nadchodzącym sprincie. Podczas planowania sprintu, zespół pracuje razem, aby wybrać najważniejsze elementy z Product Backlogu i przekształcić je w plan pracy na nadchodzący sprint."
+        },
+        {
+          "subtitle": "Daily Scrum",
+          "content": "Daily Scrum (albo potocznie po prostu Daily), to codzienne spotkanie zespołu, podczas którego członkowie zespołu dzielą się tym, co zrobili poprzedniego dnia, co zamierzają zrobić tego dnia i czy napotkali jakieś przeszkody. Daily Scrum pomaga zespołowi utrzymać skupienie i szybko reagować na problemy."
+        },
+        {
+          "subtitle": "Przegląd sprintu",
+          "content": "Na końcu każdego sprintu odbywa się ceremonia przeglądu sprintu (tzw. Review), podczas której zespół prezentuje pracę wykonaną w sprincie. Przegląd sprintu daje zespołowi możliwość pokazania stakeholderom (czyli wszystkim zainteresowanym i zaangażowanym w sukces projektu, od innych zespołów deweloperskich, przez management i działy biznesowe firmy, aż po klientów) postępu prac i uzyskania od nich informacji zwrotnej. To jest również czas na przegląd Product Backlogu i dostosowanie go do nowo odkrytych potrzeb."
+        },
+        {
+          "subtitle": "Retrospektywa sprintu",
+          "content": "Ostatnim spotkaniem sprintu, odbywającym się zwykle zaraz po Review jest Retrospektywa sprintu (pot. Retro), podczas której zespół analizuje, co poszło dobrze, co poszło źle i co można poprawić. Retrospektywa sprintu jest kluczowym elementem ciągłego doskonalenia w Scrumie. Zespół omawia swoje doświadczenia i identyfikuje konkretne kroki, które można podjąć, aby poprawić efektywność i jakość pracy."
+        }
+      ]
+    }
+    ,
+    {
+      "title": "Narzędzia",
+      "sections": [
+        {
+          "subtitle": "Burndown Chart",
+          "content": "Wykres wypalenia/spalania czyli Burndown Chart, to wykres pokazujący postęp pracy w czasie. Wykres Burndown pokazuje, ile pracy pozostało do zrobienia w sprincie. Jest to potężne narzędzie do monitorowania postępu i identyfikowania problemów, które mogą opóźniać zespół. Przykładowo, jeśli mamy sprint 10-dniowy z 50 punktami do zrealizowania, to na wykresie Burndown zaznaczamy każdego dnia, ile punktów pozostało. Idealnie, linia na wykresie powinna równomiernie opadać do zera na koniec sprintu."
+        },
+        {
+          "subtitle": "Definition of Done",
+          "content": "Definition of Done (DoD), to definicja ukończenia zadania, która jest zrozumiała dla wszystkich członków zespołu. Definition of Done pomaga zespołowi ustalić, kiedy zadanie jest ukończone i gotowe do dostarczenia. Może obejmować kryteria takie jak: kod został napisany, przetestowany, zatwierdzony przez Product Ownera i jest gotowy do wdrożenia. Przykładowa Definition of Done może wyglądać tak:\n\n- Kod został napisany zgodnie z naszymi standardami kodowania.\n- Kod został przetestowany i nie ma znanych błędów.\n- Kod został zatwierdzony przez Product Ownera.\n- Kod jest gotowy do wdrożenia na środowisko produkcyjne."
+        },
+        {
+          "subtitle": "User Stories",
+          "content": "Historyjki żytkownika, to opisy funkcji z perspektywy użytkownika, które pomagają zespołowi zrozumieć, co użytkownik chce osiągnąć. User Stories składają się z trzech elementów: kto (użytkownik), co (funkcja) i dlaczego (wartość). \nNa przykład: “Jako użytkownik chciałbym mieć możliwość resetowania mojego hasła, aby móc odzyskać dostęp do mojego konta, gdy zapomnę hasła”."
+        }
+      ]
+    }
+    ,
+    {
+      "title": "Zakończenie",
+      "sections": [
+        {
+          "subtitle": "",
+          "content": "Mamy nadzieję, że te szczegółowe informacje pomogą Ci zrozumieć Scruma. Pamiętaj, że Scrum to podróż, a nie cel. Każdy dzień to okazja do nauki i doskonalenia się. Powodzenia!"
+        },
+        {
+          "subtitle": "",
+          "content": "PS Nie zapomnij zerknąć w zakładkę z quizem oraz przejrzeć kolekcję linków!"
+        }
+      ]
+    }
+    
+  ]
+}
