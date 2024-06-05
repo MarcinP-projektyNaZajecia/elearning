@@ -11,18 +11,24 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4ab;
+  background-color: #968f8f67;
   color: #333;
   height: 100%;
 }
 
 #app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   max-width: 1200px;
   background-color: #a09c9742;
   margin: 0 auto;
-  min-height: 100vh; 
   display: flex;
   flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
 }
 
 /* Navbar styles */
@@ -56,11 +62,7 @@ body {
   background-color: #333;
   color: #fff;
   padding: 1em;
-  position: fixed;
-  bottom: 0;
-  max-width: 1200px; /* Zmienione na 1200px, tak jak w #app */
-  margin-left: auto; /* Wyśrodkowanie stopki */
-  margin-right: auto; /* Wyśrodkowanie stopki */
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -102,13 +104,11 @@ button:hover {
 }
 
 /* Content item styles */
-.home, .scrum {
+.home, .scrum, .quiz {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: calc(100vh - 60px);
-  overflow: auto;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .content-item {

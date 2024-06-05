@@ -1,0 +1,308 @@
+{
+    "quiz": [
+        {
+            "question": [
+                {
+                    "id": 1,
+                    "statement": "Co to jest Scrum?",
+                    "answer": {
+                        "1": "Metoda programowania",
+                        "2": "Ramowy model zarządzania projektami",
+                        "3": "Narzędzie do zarządzania bazami danych"
+                    },
+                    "correct": "Ramowy model zarządzania projektami"
+                },
+                {
+                    "id": 2,
+                    "statement": "Kto stworzył Scruma?",
+                    "answer": {
+                        "1": "Bill Gates i Steve Jobs",
+                        "2": "Jeff Sutherland i Ken Schwaber",
+                        "3": "Linus Torvalds i Richard Stallman"
+                    },
+                    "correct": "Jeff Sutherland i Ken Schwaber"
+                },
+                {
+                    "id": 3,
+                    "statement": "Na czym opiera się filozofia Scruma?",
+                    "answer": {
+                        "1": "Na Manifeście Agile",
+                        "2": "Na zasadach Lean",
+                        "3": "Na zasadach Extreme Programming"
+                    },
+                    "correct": "Na Manifeście Agile"
+                },
+                {
+                    "id": 4,
+                    "statement": "Jakie są podstawowe zasady Scruma?",
+                    "answer": {
+                        "1": "Inspekcja, Adaptacja i Transparentność",
+                        "2": "Planowanie, Wykonywanie i Monitorowanie",
+                        "3": "Analiza, Projektowanie i Implementacja"
+                    },
+                    "correct": "Inspekcja, Adaptacja i Transparentność"
+                },
+                {
+                    "id": 5,
+                    "statement": "Jakie wartości przyświecają Scrumowi?",
+                    "answer": {
+                        "1": "Otwartość, Szacunek, Zaangażowanie, Odwaga i Skupienie",
+                        "2": "Punktualność, Dokładność, Efektywność, Odporność i Elastyczność",
+                        "3": "Innowacyjność, Kreatywność, Przedsiębiorczość, Optymizm i Zdeterminowanie"
+                    },
+                    "correct": "Otwartość, Szacunek, Zaangażowanie, Odwaga i Skupienie"
+                },
+                {
+                    "id": 6,
+                    "statement": "Jakie są role w Scrumie?",
+                    "answer": {
+                        "1": "Product Owner, Scrum Master, Zespół deweloperski",
+                        "2": "Project Manager, Business Analyst, Developer",
+                        "3": "Tester, Developer, Tech Lead"
+                    },
+                    "correct": "Product Owner, Scrum Master, Zespół deweloperski"
+                },
+                {
+                    "id": 7,
+                    "statement": "Jakie są odpowiedzialności Product Ownera w Scrumie?",
+                    "answer": {
+                        "1": "Kodowanie i testowanie produktu",
+                        "2": "Maksymalizacja wartości produktu i zarządzanie Product Backlogiem",
+                        "3": "Usuwanie przeszkód i pomoc zespołowi w zrozumieniu Scruma"
+                    },
+                    "correct": "Maksymalizacja wartości produktu i zarządzanie Product Backlogiem"
+                },
+                {
+                    "id": 8,
+                    "statement": "Jakie są odpowiedzialności Scrum Mastera w Scrumie?",
+                    "answer": {
+                        "1": "Kodowanie i testowanie produktu",
+                        "2": "Maksymalizacja wartości produktu i zarządzanie Product Backlogiem",
+                        "3": "Usuwanie przeszkód i pomoc zespołowi w zrozumieniu Scruma"
+                    },
+                    "correct": "Usuwanie przeszkód i pomoc zespołowi w zrozumieniu Scruma"
+                },
+                {
+                    "id": 9,
+                    "statement": "Jakie są odpowiedzialności Zespołu deweloperskiego w Scrumie?",
+                    "answer": {
+                        "1": "Tworzenie produktu",
+                        "2": "Maksymalizacja wartości produktu i zarządzanie Product Backlogiem",
+                        "3": "Usuwanie przeszkód i pomoc zespołowi w zrozumieniu Scruma"
+                    },
+                    "correct": "Tworzenie produktu"
+                },
+                {
+                    "id": 10,
+                    "statement": "Co to jest Product Backlog w Scrumie?",
+                    "answer": {
+                        "1": "Lista zadań do wykonania",
+                        "2": "Lista zakończonych zadań",
+                        "3": "Lista błędów do naprawienia"
+                    },
+                    "correct": "Lista zadań do wykonania"
+                },
+                {
+                    "id": 11,
+                    "statement": "Co to jest Sprint Backlog w Scrumie?",
+                    "answer": {
+                        "1": "Lista zadań do wykonania w następnym sprincie",
+                        "2": "Lista zadań wybranych do realizacji w danym sprincie",
+                        "3": "Lista zadań zakończonych w danym sprincie"
+                    },
+                    "correct": "Lista zadań wybranych do realizacji w danym sprincie"
+                },
+                {
+                    "id": 12,
+                    "statement": "Co to jest Increment w Scrumie?",
+                    "answer": {
+                        "1": "Suma wszystkich elementów Product Backlogu zakończonych podczas jednego sprintu",
+                        "2": "Suma wszystkich elementów Sprint Backlogu zakończonych podczas jednego sprintu",
+                        "3": "Suma wszystkich elementów Product Backlogu i Sprint Backlogu zakończonych podczas jednego sprintu"
+                    },
+                    "correct": "Suma wszystkich elementów Product Backlogu zakończonych podczas jednego sprintu"
+                },
+                {
+                    "id": 13,
+                    "statement": "Co to jest Planowanie sprintu w Scrumie?",
+                    "answer": {
+                        "1": "Ceremonia, podczas której zespół decyduje, co zostanie zrealizowane w nadchodzącym sprincie",
+                        "2": "Ceremonia, podczas której zespół decyduje, co zostało zrealizowane w poprzednim sprincie",
+                        "3": "Ceremonia, podczas której zespół decyduje, co zostanie zrealizowane w następnym projekcie"
+                    },
+                    "correct": "Ceremonia, podczas której zespół decyduje, co zostanie zrealizowane w nadchodzącym sprincie"
+                },
+                {
+                    "id": 14,
+                    "statement": "Co jest głównym celem Daily Scrum?",
+                    "answer": {
+                        "1": "Omówienie wszystkich błędów znalezionych w poprzednim dniu",
+                        "2": "Podzielenie się tym, co zespół zrobił poprzedniego dnia, co zamierza zrobić tego dnia i czy napotkał jakieś przeszkody",
+                        "3": "Planowanie zadań na następny sprint"
+                    },
+                    "correct": "Podzielenie się tym, co zespół zrobił poprzedniego dnia, co zamierza zrobić tego dnia i czy napotkał jakieś przeszkody"
+                },
+                {
+                    "id": 15,
+                    "statement": "Co to jest Przegląd sprintu w Scrumie?",
+                    "answer": {
+                        "1": "Ceremonia, podczas której zespół prezentuje pracę wykonaną w sprincie",
+                        "2": "Ceremonia, podczas której zespół prezentuje plan pracy na następny sprint",
+                        "3": "Ceremonia, podczas której zespół prezentuje błędy znalezione w sprincie"
+                    },
+                    "correct": "Ceremonia, podczas której zespół prezentuje pracę wykonaną w sprincie"
+                },
+                {
+                    "id": 16,
+                    "statement": "Co to jest Retrospektywa sprintu w Scrumie?",
+                    "answer": {
+                        "1": "Ceremonia, podczas której zespół analizuje, co poszło dobrze, co poszło źle i co można poprawić",
+                        "2": "Ceremonia, podczas której zespół analizuje, co poszło dobrze, co poszło źle i co można poprawić w następnym projekcie",
+                        "3": "Ceremonia, podczas której zespół analizuje, co poszło dobrze, co poszło źle i co można poprawić w następnym sprincie"
+                    },
+                    "correct": "Ceremonia, podczas której zespół analizuje, co poszło dobrze, co poszło źle i co można poprawić"
+                },
+                {
+                    "id": 17,
+                    "statement": "Co to jest Burndown Chart w Scrumie?",
+                    "answer": {
+                        "1": "Wykres pokazujący postęp pracy w czasie",
+                        "2": "Wykres pokazujący ilość błędów w czasie",
+                        "3": "Wykres pokazujący ilość zadań w czasie"
+                    },
+                    "correct": "Wykres pokazujący postęp pracy w czasie"
+                },
+                {
+                    "id": 18,
+                    "statement": "Jakie są główne cechy zespołu deweloperskiego w Scrumie?",
+                    "answer": {
+                        "1": "Zespół jest samozarządzający się i wielofunkcyjny",
+                        "2": "Zespół jest kreatywny i wydajny",
+                        "3": "Zespół jest samoograniczający się i odpowiedzialny"
+                    },
+                    "correct": "Zespół jest samozarządzający się i wielofunkcyjny"
+                },
+                {
+                    "id": 19,
+                    "statement": "Jakie są kluczowe elementy User Story w Scrumie?",
+                    "answer": {
+                        "1": "Kto (użytkownik), co (funkcja) i dlaczego (wartość)",
+                        "2": "Kiedy (czas), gdzie (miejsce) i jak (metoda)",
+                        "3": "Co (funkcja), jak (metoda) i dlaczego (wartość)"
+                    },
+                    "correct": "Kto (użytkownik), co (funkcja) i dlaczego (wartość)"
+                },
+                {
+                    "id": 20,
+                    "statement": "Co to jest Definition of Done w Scrumie?",
+                    "answer": {
+                        "1": "Definicja ukończenia zadania, która jest zrozumiała dla wszystkich członków zespołu",
+                        "2": "Definicja ukończenia projektu, która jest zrozumiała dla wszystkich członków zespołu",
+                        "3": "Definicja ukończenia sprintu, która jest zrozumiała dla wszystkich członków zespołu"
+                    },
+                    "correct": "Definicja ukończenia zadania, która jest zrozumiała dla wszystkich członków zespołu"
+                },
+                {
+                    "id": 21,
+                    "statement": "Jakie są główne różnice między rolą Product Ownera a Scrum Mastera?",
+                    "answer": {
+                        "1": "Product Owner jest odpowiedzialny za maksymalizację wartości produktu, podczas gdy Scrum Master pomaga zespołowi w zrozumieniu i stosowaniu Scruma.",
+                        "2": "Product Owner pomaga zespołowi w zrozumieniu i stosowaniu Scruma, podczas gdy Scrum Master jest odpowiedzialny za maksymalizację wartości produktu.",
+                        "3": "Nie ma różnicy między rolą Product Ownera a Scrum Mastera."
+                    },
+                    "correct": "Product Owner jest odpowiedzialny za maksymalizację wartości produktu, podczas gdy Scrum Master pomaga zespołowi w zrozumieniu i stosowaniu Scruma."
+                },
+                {
+                    "id": 22,
+                    "statement": "Co to jest User Story w kontekście Scruma?",
+                    "answer": {
+                        "1": "Jest to opis funkcji z perspektywy użytkownika.",
+                        "2": "Jest to lista zadań do wykonania w następnym sprincie.",
+                        "3": "Jest to lista zadań zakończonych w danym sprincie."
+                    },
+                    "correct": "Jest to opis funkcji z perspektywy użytkownika."
+                },
+                {
+                    "id": 23,
+                    "statement": "Kim są interesariusze (stakeholders) w Scrumie?",
+                    "answer": {
+                        "1": "Wszystkie osoby zainteresowane i zaangażowane w sukces projektu",
+                        "2": "Tylko członkowie zespołu Scrum",
+                        "3": "Tylko klienci i użytkownicy końcowi"
+                    },
+                    "correct": "Wszystkie osoby zainteresowane i zaangażowane w sukces projektu"
+                },
+                {
+                    "id": 24,
+                    "statement": "W którym dziesięcioleciu powstał Scrum?",
+                    "answer": {
+                        "1": "W latach 70.",
+                        "2": "W latach 80.",
+                        "3": "W latach 90."
+                    },
+                    "correct": "W latach 80."
+                },
+                {
+                    "id": 25,
+                    "statement": "Jakie są główne różnice między podejściem kaskadowym a iteracyjnym w zarządzaniu projektami?",
+                    "answer": {
+                        "1": "Podejście kaskadowe zakłada pełne zrozumienie wymagań i problemów na początku projektu, podczas gdy podejście iteracyjne akceptuje, że projekt będzie ewoluował i zmieniać się w miarę jego trwania.",
+                        "2": "Podejście kaskadowe akceptuje, że projekt będzie ewoluował i zmieniać się w miarę jego trwania, podczas gdy podejście iteracyjne zakłada pełne zrozumienie wymagań i problemów na początku projektu.",
+                        "3": "Podejście kaskadowe i iteracyjne są takie same."
+                    },
+                    "correct": "Podejście kaskadowe zakłada pełne zrozumienie wymagań i problemów na początku projektu, podczas gdy podejście iteracyjne akceptuje, że projekt będzie ewoluował i zmieniać się w miarę jego trwania."
+                },
+                {
+                    "id": 26,
+                    "statement": "Czym są ceremonie w Scrumie?",
+                    "answer": {
+                        "1": "Są to regularne spotkania zespołu, które pomagają zespołowi skoordynować i planować pracę.",
+                        "2": "Są to spotkania z klientami i użytkownikami końcowymi, które pomagają zespołowi zrozumieć wymagania.",
+                        "3": "Są to spotkania z zarządem, które pomagają zespołowi zrozumieć cele biznesowe."
+                    },
+                    "correct": "Są to regularne spotkania zespołu, które pomagają zespołowi skoordynować i planować pracę."
+                },
+                {
+                    "id": 27,
+                    "statement": "Jakie są główne ceremonie w Scrumie?",
+                    "answer": {
+                        "1": "Planowanie sprintu, Daily Scrum, Przegląd sprintu, Retrospektywa sprintu",
+                        "2": "Rozpoczęcie projektu, Przegląd projektu, Zakończenie projektu",
+                        "3": "Spotkanie z klientem, Spotkanie z użytkownikami, Spotkanie z zarządem"
+                    },
+                    "correct": "Planowanie sprintu, Daily Scrum, Przegląd sprintu, Retrospektywa sprintu"
+                },
+                {
+                    "id": 28,
+                    "statement": "Jaka jest maksymalna długość jednego sprintu w Scrumie?",
+                    "answer": {
+                        "1": "1 tydzień",
+                        "2": "2 tygodnie",
+                        "3": "4 tygodnie"
+                    },
+                    "correct": "4 tygodnie"
+                },
+                {
+                    "id": 29,
+                    "statement": "Jaka jest główna różnica pomiędzy Product Backlogiem a Sprint Backlogiem w Scrumie?",
+                    "answer": {
+                        "1": "Product Backlog to lista wszystkich zadań do wykonania w projekcie, podczas gdy Sprint Backlog to lista zadań wybranych do realizacji w danym sprincie",
+                        "2": "Product Backlog to lista zadań do wykonania w danym sprincie, podczas gdy Sprint Backlog to lista wszystkich zadań do wykonania w projekcie",
+                        "3": "Product Backlog i Sprint Backlog to to samo"
+                    },
+                    "correct": "Product Backlog to lista wszystkich zadań do wykonania w projekcie, podczas gdy Sprint Backlog to lista zadań wybranych do realizacji w danym sprincie"
+                },
+                {
+                    "id": 30,
+                    "statement": "Jakie są główne różnice między Scrumem a tradycyjnymi modelami zarządzania projektami?",
+                    "answer": {
+                        "1": "Scrum jest bardziej skupiony na procesach, a tradycyjne modele na produktach",
+                        "2": "Scrum akceptuje, że projekt będzie ewoluował i zmieniać się w miarę jego trwania, podczas gdy tradycyjne modele zakładają pełne zrozumienie wymagań i problemów na początku projektu",
+                        "3": "Scrum skupia się na dostarczaniu produktu, a tradycyjne modele na dostarczaniu dokumentacji"
+                    },
+                    "correct": "Scrum akceptuje, że projekt będzie ewoluował i zmieniać się w miarę jego trwania, podczas gdy tradycyjne modele zakładają pełne zrozumienie wymagań i problemów na początku projektu"
+                }
+            ]
+        }
+    ]
+}
