@@ -1,0 +1,29 @@
+{
+    "links": [
+      {
+        "url": "https://agilemanifesto.org/iso/pl/manifesto.html",
+        "description": "Manifest Agile po polsku (tekst)"
+      },
+      {
+        "url": "https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Polish.pdf",
+        "description": "Scrum Guide 2020 w polskiej wersji językowej (download)"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=roWcAJS8vrs",
+        "description": "Co to jest Scrum? W 7.5 minuty. Scrum jako sposób na efektywną naukę. (video)"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=TileOoQwrKk",
+        "description": "Scrum Guide 2020 - czyt. Krystyna Czubówna (video)"
+      },
+      {
+        "url": "https://www.atlassian.com/pl/agile/project-management/3-pillars-scrum",
+        "description": "\"Trzy filary Scruma\" - Atlassian (tekst)"
+      },
+      {
+        "url": "https://bialko.eu/agile/scrum-blog/",
+        "description": "#bialko - blog o Agile i Scrum (blog)"
+      }
+    ]
+  }
+  

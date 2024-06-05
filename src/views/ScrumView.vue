@@ -25,7 +25,7 @@ export default {
   data() {
     return {
       courseItems: [],
-      activeSection: 0 // Dodajemy nową zmienną do śledzenia aktywnej sekcji
+      activeSection: 0
     }
   },
   async created() {

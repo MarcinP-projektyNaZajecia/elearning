@@ -25,10 +25,12 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
 
 .content {
   flex-grow: 1;
+  width: 100%;
 }
 
 /* Navbar styles */
@@ -80,13 +82,20 @@ p {
   line-height: 1.6;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
 /* Quiz styles */
 .quiz {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  padding: 2em;
+  background-color: #f9f9f9; /* zmieniamy kolor tła na jaśniejszy */
+  border-radius: 10px; /* zwiększamy zaokrąglenie rogów */
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1); /* dodajemy większy cień */
+  padding: 30px;
   margin-bottom: 2em;
+  width: 1200px;
 }
 
 /* Button styles */
@@ -104,7 +113,7 @@ button:hover {
 }
 
 /* Content item styles */
-.home, .scrum, .quiz {
+.home, .scrum, .quiz, .download-materials {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,5 +137,29 @@ button:hover {
 }
 
 .section-item p {
+  margin-top: 20px;
+}
+
+/* Download materials styles */
+.download-materials {
+  width: 1200px;
+}
+
+.download-tittle {
+  margin-top: 20px;
+}
+
+.download-links {
+  width: 100%;
+  padding: 80px;
+}
+
+.download-links a:link, .download-links a:visited {
+  color: #333;
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+.link-class {
   margin-top: 20px;
 }
