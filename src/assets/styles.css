@@ -28,11 +28,6 @@ body {
   align-items: stretch;
 }
 
-.content {
-  flex-grow: 1;
-  width: 100%;
-}
-
 /* Navbar styles */
 .navbar {
   background-color: #333;
@@ -83,6 +78,8 @@ p {
 }
 
 .content {
+  flex-grow: 1;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -90,12 +87,37 @@ p {
 
 /* Quiz styles */
 .quiz {
-  background-color: #f9f9f9; /* zmieniamy kolor tła na jaśniejszy */
-  border-radius: 10px; /* zwiększamy zaokrąglenie rogów */
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1); /* dodajemy większy cień */
+  background-color: #f9f9f9; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1); 
   padding: 30px;
-  margin-bottom: 2em;
+  margin-top: 2em;
   width: 1200px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-element {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-element h2 {
+  margin-bottom: 20px;
+}
+
+.quiz-element li {
+  margin-bottom: 5px;
+}
+
+.quiz-element div {
+  position: relative;
 }
 
 /* Button styles */
@@ -106,10 +128,28 @@ button {
   border-radius: 5px;
   padding: 0.5em 1em;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 button:hover {
   background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.footer button {
+  margin-top: 0;
+}
+
+.quiz-element button {
+  margin-top: 40px;
+  position: absolute;
+  right: 0;
+  align-self: flex-end;
+}
+
+input[type="radio"] {
+  margin: 10px 0; 
+  margin-right: 10px;
 }
 
 /* Content item styles */

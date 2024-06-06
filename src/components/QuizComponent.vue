@@ -1,5 +1,5 @@
 <template>
-  <div class="quiz" v-if="quizData.length > 0">
+  <div class="quiz-element" v-if="quizData.length > 0">
     <div v-if="showWelcomeScreen">
       <p>Czeka Cię teraz kolejno 10 wybranych losowo pytań z puli 30. Do każdego pytania dostaniesz 3 pododpowiedzi, z których tylko jedna jest poprawna. Powodzenia</p>
       <button @click="startQuiz">Rozpocznij quiz</button>
