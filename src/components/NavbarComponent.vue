@@ -13,6 +13,8 @@
 </template>
 
 <script>
+import translate from '../translate.js'; // Importuj funkcję translate
+
 export default {
   name: 'NavbarComponent',
   data() {
@@ -24,7 +26,6 @@ export default {
         quiz: 'Quiz',
         downloadMaterials: 'Linki i materiały do pobrania',
       },
-      englishText: {}, // Tekst w języku angielskim
       displayText: { // Tekst do wyświetlenia
         home: 'Strona główna',
         scrum: 'Scrum',
@@ -40,21 +41,7 @@ export default {
         this.displayText = {...this.defaultText};
       } else {
         // W przeciwnym razie przetłumacz tekst na wybrany język
-        for (let key in this.defaultText) {
-          // Najpierw tłumacz z polskiego na angielski
-          let response = await fetch(`http://localhost:3000/translate?text=${encodeURIComponent(this.defaultText[key])}&lang=en`);
-          let result = await response.json();
-          let englishTranslation = result.translatedText;
-          this.englishText[key] = englishTranslation;
-
-          if (this.selectedLanguage !== 'en') {
-            // Jeśli wybrany język nie jest angielskim, tłumacz z angielskiego na wybrany język
-            response = await fetch(`http://localhost:3000/translate?text=${encodeURIComponent(englishTranslation)}&lang=${this.selectedLanguage}`);
-            result = await response.json();
-          }
-
-          this.displayText[key] = result.translatedText;
-        }
+        this.displayText = await translate(this.defaultText, this.selectedLanguage);
       }
     },
   },
