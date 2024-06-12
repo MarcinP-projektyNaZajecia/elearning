@@ -24,12 +24,7 @@ export default {
         quiz: 'Quiz',
         downloadMaterials: 'Linki i materiały do pobrania',
       },
-      englishText: { // Tekst w języku angielskim
-        home: 'Home',
-        scrum: 'Scrum',
-        quiz: 'Quiz',
-        downloadMaterials: 'Download links and materials',
-      },
+      englishText: {}, // Tekst w języku angielskim
       displayText: { // Tekst do wyświetlenia
         home: 'Strona główna',
         scrum: 'Scrum',
@@ -43,14 +38,21 @@ export default {
       if (this.selectedLanguage === 'pl') {
         // Jeśli język jest ustawiony na polski, przywróć oryginalny tekst
         this.displayText = {...this.defaultText};
-      } else if (this.selectedLanguage === 'en') {
-        // Jeśli język jest ustawiony na angielski, użyj tekstu angielskiego
-        this.displayText = {...this.englishText};
       } else {
         // W przeciwnym razie przetłumacz tekst na wybrany język
-        for (let key in this.englishText) {
-          const response = await fetch(`http://localhost:3000/translate?text=${encodeURIComponent(this.englishText[key])}&lang=${this.selectedLanguage}`);
-          const result = await response.json();
+        for (let key in this.defaultText) {
+          // Najpierw tłumacz z polskiego na angielski
+          let response = await fetch(`http://localhost:3000/translate?text=${encodeURIComponent(this.defaultText[key])}&lang=en`);
+          let result = await response.json();
+          let englishTranslation = result.translatedText;
+          this.englishText[key] = englishTranslation;
+
+          if (this.selectedLanguage !== 'en') {
+            // Jeśli wybrany język nie jest angielskim, tłumacz z angielskiego na wybrany język
+            response = await fetch(`http://localhost:3000/translate?text=${encodeURIComponent(englishTranslation)}&lang=${this.selectedLanguage}`);
+            result = await response.json();
+          }
+
           this.displayText[key] = result.translatedText;
         }
       }
