@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     async getQuizData() {
-      const response = await axios.get('http://localhost:3000/api/quiz')
+      const response = await axios.get('http://144.24.184.143:3000/api/quiz')
       this.quizData = response.data
       this.userAnswers = new Array(this.quizData.length).fill(null)
       this.shuffleAnswers()
@@ -66,7 +66,7 @@ export default {
       }
     },
     async submitQuiz() {
-      const response = await axios.post('http://localhost:3000/api/submitQuiz', {
+      const response = await axios.post('http://144.24.184.143:3000/api/submitQuiz', {
         answers: this.userAnswers.map((answer, index) => ({
           questionId: this.quizData[index].id,
           answer: answer

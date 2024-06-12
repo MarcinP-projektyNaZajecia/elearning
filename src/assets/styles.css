@@ -44,10 +44,26 @@ body {
   margin-top: 20px;
 }
 
+.scrum-menu a.nav-link {
+  transition: font-weight 0.3s ease;
+}
+
+.scrum-menu a.nav-link:hover {
+  font-weight: bold;
+}
+
 .nav-link {
   color: #0e0d0d;
   margin-right: 20px;
   text-decoration: none;
+}
+
+.navbar a.nav-link {
+  transition: font-weight 0.3s ease;
+}
+
+.navbar a.nav-link:hover {
+  font-weight: bold;
 }
 
 .active-link {
@@ -192,6 +208,14 @@ input[type="radio"] {
 .download-links {
   width: 100%;
   padding: 80px;
+}
+
+.download-links li a {
+  transition: font-weight 0.3s ease;
+}
+
+.download-links li a:hover {
+  font-weight: 800;
 }
 
 .download-links a:link, .download-links a:visited {
