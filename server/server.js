@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+const fetch = require('node-fetch');
 const app = express()
 const port = 3000
 
@@ -43,6 +44,20 @@ function shuffleQuestions(questions) {
   }
   return questions
 }
+
+//tłumaczenie - backend
+
+app.get('/translate', async (req, res) => {
+  const { text, lang } = req.query;
+  try {
+    const response = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${lang}&dt=t&q=${encodeURIComponent(text)}`);
+    const result = await response.json();
+    res.json({ translatedText: result[0][0][0] });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: error.toString() });
+  }
+});
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`)
