@@ -4,7 +4,7 @@
     <router-link class="nav-link" active-class="active-link" to="/scrum">{{ displayText.scrum }}</router-link>
     <router-link class="nav-link" active-class="active-link" to="/quiz">{{ displayText.quiz }}</router-link>
     <router-link class="nav-link" active-class="active-link" to="/download-materials">{{ displayText.downloadMaterials }}</router-link>
-    <select v-model="selectedLanguage" @change="changeLanguage">
+    <select v-model="selectedLanguage" @change="changeLanguage" class="language-selector">
       <option value="pl">Polski</option>
       <option value="en">English</option>
       <option value="de">Deutsch</option>
@@ -13,20 +13,21 @@
 </template>
 
 <script>
-import translate from '../translate.js'; // Importuj funkcję translate
+import { EventBus } from '../event-bus.js';
+import translate from '../translate.js';
 
 export default {
   name: 'NavbarComponent',
   data() {
     return {
-      selectedLanguage: 'pl', // domyślny język
-      defaultText: { // Oryginalny tekst w języku polskim
+      selectedLanguage: 'pl',
+      defaultText: {
         home: 'Strona główna',
         scrum: 'Scrum',
         quiz: 'Quiz',
         downloadMaterials: 'Linki i materiały do pobrania',
       },
-      displayText: { // Tekst do wyświetlenia
+      displayText: {
         home: 'Strona główna',
         scrum: 'Scrum',
         quiz: 'Quiz',
@@ -37,13 +38,14 @@ export default {
   methods: {
     async changeLanguage() {
       if (this.selectedLanguage === 'pl') {
-        // Jeśli język jest ustawiony na polski, przywróć oryginalny tekst
-        this.displayText = {...this.defaultText};
+        this.displayText = { ...this.defaultText };
       } else {
-        // W przeciwnym razie przetłumacz tekst na wybrany język
         this.displayText = await translate(this.defaultText, this.selectedLanguage);
       }
+      EventBus.emit('language-changed', this.selectedLanguage);
     },
   },
 };
 </script>
+
+<style scoped src="../assets/styles.css"></style>
